@@ -1,0 +1,22 @@
+.modals {
+    .modal {
+        transform: translateY(55%);
+        transition: all ease 0.2s;
+        &__header {
+            font-size: 1.6rem;
+        }
+        &__content {
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        .actions {
+            display: flex !important;
+            justify-content: space-around;
+            button {
+                width: 40% !important;
+                margin: 0 !important;
+                transition: all ease 0.2s;
+            }
+        }
+    }
+}

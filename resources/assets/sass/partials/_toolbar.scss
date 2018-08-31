@@ -1,0 +1,23 @@
+.toolbar {
+    .pagination {
+        .dropdown .menu {
+        }
+    }
+
+    .filter {
+        transition: all ease 0.6s;
+        & + .popup.visible {
+            // min-width: 400px !important;
+            .header {
+                margin: 0 !important;
+                font-size: 1.2rem !important;
+            }
+            .label {
+                padding-left: 1.6rem !important;
+            }
+            .list {
+                padding: 0 0 0.5rem 10px !important;
+            }
+        }
+    }
+}

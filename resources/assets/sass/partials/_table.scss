@@ -1,0 +1,37 @@
+table {
+    width: 100%;
+    thead {
+        th {
+            white-space: normal !important;
+            word-break: break-word;
+
+            &:first-child {
+                // background-color: transparent !important;
+                border-left: 1px solid rgba(34, 36, 38, 0.1) !important;
+            }
+
+            &:last-child, {
+                border-right: 1px solid rgba(34, 36, 38, 0.1);
+            }
+
+            &.expanded {
+                width: 35px !important;
+            }
+
+            &.collapsed {
+                width: 1% !important;
+            }
+        }
+        
+        
+    }
+
+    tbody {
+        &.tab.active {
+            display: table-row-group !important;
+        }
+        tr {
+            transition: all ease 0.5s;
+        }
+    }
+}

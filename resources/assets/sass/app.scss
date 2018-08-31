@@ -1,0 +1,36 @@
+@import './partials/base';
+
+.app {
+    width: 100%;
+    height: 100vh;
+    margin: 0 !important;
+
+    @import './partials/preloader';
+
+    @import './partials/sidebar';
+
+    &__wrapper {
+        padding-top: 0 !important;
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+        @import './partials/header';
+    }
+
+    &__content {
+        padding: 0 10px 20px 10px;
+
+        > .menu {
+            margin-top: 0 !important;
+        }
+
+        @import './partials/CUbtn';
+        @import './partials/dashboard';
+        @import './partials/form';
+        @import './partials/modal';
+        @import './partials/table';
+        @import './partials/toolbar';
+    }
+}
+
+

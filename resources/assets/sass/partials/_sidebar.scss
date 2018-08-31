@@ -1,0 +1,24 @@
+.app__sidebar {
+    padding-top: 0 !important;
+    overflow-y: scroll;
+    overflow-x: visible !important;
+    * {
+        overflow-x: visible !important;
+        color: #fff !important;
+    }
+    div.item {
+        height: 10vh;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .item {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+        &.active {
+            border-color: #fff !important;
+        }
+    }
+    ul.list {
+        font-size: 1.2rem;
+    }
+}

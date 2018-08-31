@@ -1,0 +1,71 @@
+{
+  "_from": "semantic-ui-sass",
+  "_id": "semantic-ui-sass@2.2.11",
+  "_inBundle": false,
+  "_integrity": "sha512-HCROD3MYXc6ljpudCRJP9mcCwMF35HMV5+xCwS6fktl671FUl7pEW9JPEf4oAR2rGmbyz1JBqsEEbkruuzWx6g==",
+  "_location": "/semantic-ui-sass",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "semantic-ui-sass",
+    "name": "semantic-ui-sass",
+    "escapedName": "semantic-ui-sass",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/semantic-ui-sass/-/semantic-ui-sass-2.2.11.tgz",
+  "_shasum": "f77677cfc6ebe874f0da29e2787b64facccd1f4b",
+  "_spec": "semantic-ui-sass",
+  "_where": "/Volumes/SDSMNC_BU/2018/visia/panorama/code/sandbox/back-office/laravel",
+  "author": {
+    "name": "NiftyCo",
+    "email": "support@anifty.co",
+    "url": "https://anifty.co"
+  },
+  "bugs": {
+    "url": "https://github.com/aniftyco/semantic-ui-sass/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Josh Manders",
+      "url": "https://twitter.com/joshmanders"
+    }
+  ],
+  "deprecated": false,
+  "description": "Semantic UI, converted to Sass",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "babel-register": "^6.24.1",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-git": "^2.4.0",
+    "gulp-insert": "^0.5.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-util": "^3.0.8",
+    "run-sequence": "^1.2.2"
+  },
+  "homepage": "http://www.semantic-ui.com",
+  "license": "MIT",
+  "main": "semantic-ui.js",
+  "name": "semantic-ui-sass",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniftyco/semantic-ui-sass.git"
+  },
+  "sass": "semantic-ui.scss",
+  "scripts": {
+    "build": "gulp build",
+    "release": "gulp release",
+    "test": "gulp test"
+  },
+  "style": "semantic-ui.scss",
+  "version": "2.2.11"
+}
